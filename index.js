@@ -7,7 +7,7 @@
 // console.log(isDivisibleby5(47));
 
 // function second(a) {
-//     if (a >=1 && a<=100) return "include";
+//     if (a >=1git  a<=100) return "include";
 //     else return "exclude";
 // }
 
