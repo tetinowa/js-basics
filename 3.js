@@ -91,6 +91,3 @@ const num10 = [89, 90, 91, 93, 94, 95]
 
 for (i = 0; i < num10.length; i++) {
     if ( num10[i+1] - num10[i] > 1) {console.log(num10[i]+1)}}
-
-
-
