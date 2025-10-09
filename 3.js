@@ -51,17 +51,46 @@
            
 
 
+// const num7 = [91, 97, 23, 42, 36, 110]
+// let a = 133
+// let sum = 0
+// let sumpair = 0
 
-const num7 = [91, 97, 23, 42]
-let a = 9
-let sum = 0
-let sumpair = 0
+// for (let i = 0; i < num7.length-1; i++) {
+//     for (let j = i + 1; j < num7.length; j++) {if (num7[i] + num7[j] === a) sumpair++}}
 
-for (let i =0; i < num7.length; i++) {
-    sum = sum + num7[i]}
+// console.log(sumpair)
 
 
 
+// const num8 = [21, 22, 23, 71, 72, 73]
+// const num81 = [22, 23, 72, 73, 91, 92]
+// let intersec = 0
+
+// for (i = 0; i < num8.length; i++) {for (j= 0; j < num81.length; j++)  
+//     {if (num8[i] === num81[j]) {intersec++}}}
+
+// console.log(intersec)
+
+
+
+// const num9 = [1, -88, 91, 0, 33, -42]
+// const num9n = []
+
+// for (i = 0; i < num9.length; i++) {
+//     if (num9[i] < 0) {num9n.push(num9[i])}}
+
+// for (i = 0; i < num9.length; i++) {
+//     if (num9[i] >= 0) {num9n.push(num9[i])}}
+
+// console.log(num9n)
+
+
+
+const num10 = [89, 90, 91, 93, 94, 95]
+
+for (i = 0; i < num10.length; i++) {
+    if ( num10[i+1] - num10[i] > 1) {console.log(num10[i]+1)}}
 
 
 
