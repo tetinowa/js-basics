@@ -20,8 +20,6 @@
 // }
 // console.log(smolnum)
 
-
-
 // const num3 = [21, 98, 91, 0, -2, 90, 190]
 // let bgs = 0
 // for (let i = 0; i < num3.length; i++) {
@@ -29,12 +27,8 @@
 // }
 // console.log(bgs)
 
-
-
-// const num4 = [21, 98, 91, 0, 95, 100] 
+// const num4 = [21, 98, 91, 0, 95, 100]
 // for (let i = num4.length-1; i >= 0; i--) {console.log(num4[i])}
-
-
 
 // const num5 = [ 42, 77, 31, 21, 98, 0, 8]
 // let peak = 0
@@ -42,14 +36,10 @@
 //     if (num5[i] > num5[i-1] && num5[i] > num5[i+1]) {peak++}}
 // console.log(peak)
 
-
-
 // const num6 = [87, 91, 42, 77, 71, 12]
 // let pairs = 0
 // for (let i = 0; i < num6.length-1; i++) {
 //     for (let j = i + 1; j < num6.length; j++) {console.log(num6[i], num6[j])}}
-           
-
 
 // const num7 = [91, 97, 23, 42, 36, 110]
 // let a = 133
@@ -61,18 +51,14 @@
 
 // console.log(sumpair)
 
-
-
 // const num8 = [21, 22, 23, 71, 72, 73]
 // const num81 = [22, 23, 72, 73, 91, 92]
 // let intersec = 0
 
-// for (i = 0; i < num8.length; i++) {for (j= 0; j < num81.length; j++)  
+// for (i = 0; i < num8.length; i++) {for (j= 0; j < num81.length; j++)
 //     {if (num8[i] === num81[j]) {intersec++}}}
 
 // console.log(intersec)
-
-
 
 // const num9 = [1, -88, 91, 0, 33, -42]
 // const num9n = []
@@ -85,9 +71,10 @@
 
 // console.log(num9n)
 
-
-
-const num10 = [89, 90, 91, 93, 94, 95]
+const num10 = [89, 90, 91, 93, 94, 95];
 
 for (i = 0; i < num10.length; i++) {
-    if ( num10[i+1] - num10[i] > 1) {console.log(num10[i]+1)}}
+  if (num10[i + 1] - num10[i] > 1) {
+    console.log(num10[i] + 1);
+  }
+}
