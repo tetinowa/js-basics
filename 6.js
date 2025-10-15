@@ -14,15 +14,45 @@
 
 // filter, find, include
 
-const strr = "hello";
+// 1. Reverse a string
+// const strr = "hello";
 
-const reversed = (strr) => {
-  return strr.split("").reverse().join("");
-  //   .reverse().join("");
+// const reversed = (strr) => {
+//   return strr.split("").reverse().join("");
+// };
+
+// console.log(reversed(strr));
+
+// 2. Check if a string is a palindrome
+
+// const checkinpali = "level";
+
+// const pali = (checkinpali) => {
+//   return checkinpali.split("").reverse().join("");
+// };
+
+// console.log(pali(checkinpali));
+
+// aaaaaaaaaaaaa
+
+const name = { firstname: "bat", lastName: "bold" };
+// toLowerCase(), toUpperCase()  ---  B.Bat
+const displayName = (name) => {
+  return (
+    name.lastName[0].toUpperCase() + "." + name.firstname.map(name.lastName)
+  ) => ;
 };
 
-console.log(reversed(strr));
+console.log(displayName(name));
 
-const checkinpali = "lever";
+// .split("").filter(element) aaaaaaa
 
-const pali = (checkinpali) => {};
+
+
+
+
+
+
+const findLongestWord = (sentence) => {
+  sentence.split(" ").sort((a,b) => {return b.length - a.length;})  
+}
