@@ -1,15 +1,19 @@
-const container = document.getElementsByClassName("container");
+// const container = document.getElementsByClassName("container");
 
-container[0].addEventListener("click", () => {
-  container[0].style.backgroundColor = "red";
-});
+// container[0].addEventListener("click", () => {
+//   container[0].style.backgroundColor = "";
+// });
 
 const box = document.querySelectorAll(".container");
 
 for (let i = 0; i < box.length; i++) {
-  if (box[i].style.backgroundColor === "aquamarine") {
-    box[i].style.backgroundColor = "pink";
-  } else {
-    box[i].style.backgroundColor = "blue";
-  }
+  box[i].addEventListener("mouseenter", () => {
+    console.log({ h: box[i].style.backgroundColor });
+
+    if (box[i].style.backgroundColor == "rgb(170, 242, 255)") {
+      box[i].style.backgroundColor = "#ffc8f9ff";
+    } else {
+      box[i].style.backgroundColor = "rgb(170, 242, 255)";
+    }
+  });
 }
