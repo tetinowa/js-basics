@@ -5,11 +5,12 @@ let timeout;
 
 container.addEventListener("click", () => {
   if (!waiting) {
-    container.style.backgroundColor = "red";
+    container.style.backgroundColor = "#ffc2c2";
     container.textContent = "Wait for green...";
     waiting = true;
 
-    const delay = Math.random() * 2000 + 1000;
+    const delay = Math.random() * 1000 + 1000;
+    console.log(delay);
     timeout = setTimeout(() => {
       container.style.backgroundColor = "green";
       container.textContent = "Click!";
@@ -24,7 +25,7 @@ container.addEventListener("click", () => {
       clearTimeout(timeout);
     } else {
       container.textContent = "Too soon!";
-      container.style.backgroundColor = "gray";
+      container.style.backgroundColor = "#EDFFED";
       waiting = false;
       clearTimeout(timeout);
     }
